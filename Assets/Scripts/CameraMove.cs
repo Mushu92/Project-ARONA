@@ -45,9 +45,10 @@ public class CameraMove : MonoBehaviour
     //영역(Map) 밖을 비추지 않도록 영역 제한
     void LimitCameraArea()
     {
+        Vector3 camPos = new Vector3(cameraPosition.x * playerTransform.localScale.x, cameraPosition.y,cameraPosition.z);
         //선형 보간 사용해서 카메라 이동 부드럽게
         transform.position = Vector3.Lerp(transform.position, 
-                                          playerTransform.position + cameraPosition, 
+                                          playerTransform.position + camPos, 
                                           Time.deltaTime * cameraMoveSpeed);
         
         
