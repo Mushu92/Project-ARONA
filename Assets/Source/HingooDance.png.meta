@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ee3e9578e15fea4f97f6ac4c0b47b12
+guid: 609d7b4344dd5b14cbbaf9d3bd54cef7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -112,23 +112,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Map Tiles_0
+      name: HingooDance_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eea2635f9d28e794a8179c9088c1af9c
-      internalID: 115436541
+      spriteID: e18cfd7a8f1c0cc4e84ae016b4136bba
+      internalID: -68740989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_1
+      name: HingooDance_1
       rect:
         serializedVersion: 2
         x: 256
@@ -163,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9ce892d4210034a8d45415e846f264
-      internalID: 1464447528
+      spriteID: 4246ac2268fb03449aca89bf337a6f5b
+      internalID: 1043130644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_2
+      name: HingooDance_2
       rect:
         serializedVersion: 2
         x: 512
@@ -184,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c23e59e0ecee5546be32d5a5fc5415e
-      internalID: -546322197
+      spriteID: 971df314141af5c4b8277526395b7ee0
+      internalID: 1014604160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_3
+      name: HingooDance_3
       rect:
         serializedVersion: 2
         x: 768
@@ -205,29 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21b103cecf3252146adcd0df836b6820
-      internalID: 1548011872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Map Tiles_4
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb47d21b12f099949afd7c6240521599
-      internalID: 1450448551
+      spriteID: 15151fc4611416647a18bd35ecb7acc4
+      internalID: -614026554
       vertices: []
       indices: 
       edges: []
@@ -243,11 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Map Tiles_3: 1548011872
-      Map Tiles_0: 115436541
-      Map Tiles_1: 1464447528
-      Map Tiles_4: 1450448551
-      Map Tiles_2: -546322197
+      HingooDance_0: -68740989
+      HingooDance_2: 1014604160
+      HingooDance_3: -614026554
+      HingooDance_1: 1043130644
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

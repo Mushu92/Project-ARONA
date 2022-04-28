@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ee3e9578e15fea4f97f6ac4c0b47b12
+guid: 3fb7ceff7858e7749b6833db431e3a4c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -112,23 +112,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Map Tiles_0
+      name: ExtraTiles3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eea2635f9d28e794a8179c9088c1af9c
-      internalID: 115436541
+      spriteID: c001d8f016cbecc4a8b7fbd4e0c95e3f
+      internalID: 1003349049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_1
+      name: ExtraTiles3_1
       rect:
         serializedVersion: 2
         x: 256
@@ -163,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9ce892d4210034a8d45415e846f264
-      internalID: 1464447528
+      spriteID: 27db170632637ad40b0f42a8aba64657
+      internalID: 415167899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_2
+      name: ExtraTiles3_2
       rect:
         serializedVersion: 2
         x: 512
@@ -184,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c23e59e0ecee5546be32d5a5fc5415e
-      internalID: -546322197
+      spriteID: 9f5d121eabb51a649b52507e6134bf72
+      internalID: 658883380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_3
+      name: ExtraTiles3_3
       rect:
         serializedVersion: 2
         x: 768
@@ -205,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21b103cecf3252146adcd0df836b6820
-      internalID: 1548011872
+      spriteID: f60bddf128d2b2644a006cf46279b769
+      internalID: 314481875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Map Tiles_4
+      name: ExtraTiles3_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -226,8 +214,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb47d21b12f099949afd7c6240521599
-      internalID: 1450448551
+      spriteID: 0f8e479a34921324d887cc8327d763ec
+      internalID: -2076201888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraTiles3_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85a220a7b761ce4c8078160cadda73c
+      internalID: -1733174421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExtraTiles3_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb80130eabb4842ad4967a08a2d053
+      internalID: -231747454
       vertices: []
       indices: 
       edges: []
@@ -243,11 +273,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Map Tiles_3: 1548011872
-      Map Tiles_0: 115436541
-      Map Tiles_1: 1464447528
-      Map Tiles_4: 1450448551
-      Map Tiles_2: -546322197
+      ExtraTiles3_5: -1733174421
+      ExtraTiles3_6: -231747454
+      ExtraTiles3_1: 415167899
+      ExtraTiles3_2: 658883380
+      ExtraTiles3_4: -2076201888
+      ExtraTiles3_3: 314481875
+      ExtraTiles3_0: 1003349049
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
