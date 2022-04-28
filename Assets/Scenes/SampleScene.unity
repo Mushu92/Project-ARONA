@@ -901,10 +901,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ae42a3b35b375c48a8d69f8fbff11b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 72771363661f1514289024dcc01f22b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 1975629665}
+  playerTransform: {fileID: 0}
   cameraPosition: {x: 2, y: 1, z: 0}
   center: {x: 0, y: 0}
   cameraMoveSpeed: 5
@@ -1576,10 +1576,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1975629663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 046efa3d5fb06e648a279309866e793a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d8c20a7ea3a1264fadfc6e5c4a5d354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 2
+  maxSpeed: 0
 --- !u!1 &2061133430
 GameObject:
   m_ObjectHideFlags: 0
