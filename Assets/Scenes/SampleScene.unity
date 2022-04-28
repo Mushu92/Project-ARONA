@@ -904,10 +904,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ae42a3b35b375c48a8d69f8fbff11b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  cameraPosition: {x: 0, y: 0, z: 0}
+  playerTransform: {fileID: 1975629665}
+  cameraPosition: {x: 2, y: 1, z: 0}
   center: {x: 0, y: 0}
-  cameraMoveSpeed: 0
+  cameraMoveSpeed: 5
 --- !u!1 &903033041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,7 +1579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046efa3d5fb06e648a279309866e793a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 0
+  maxSpeed: 2
 --- !u!1 &2061133430
 GameObject:
   m_ObjectHideFlags: 0
