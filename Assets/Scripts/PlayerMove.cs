@@ -14,8 +14,8 @@ public class PlayerMove : MonoBehaviour
         playerSize = GetComponent<Renderer>().bounds.size;
     } 
 
-    void Update() {
-         var distance = (transform.position - Camera.main.transform.position).z;
+    private void Update() {
+        var distance = (transform.position - Camera.main.transform.position).z;
  
          var leftBorder = Camera.main.ViewportToWorldPoint (new Vector3 (0, 0, distance)).x + (playerSize.x/2);
          var rightBorder = Camera.main.ViewportToWorldPoint (new Vector3 (1, 0, distance)).x - (playerSize.x/2);
@@ -28,8 +28,8 @@ public class PlayerMove : MonoBehaviour
              Mathf.Clamp (transform.position.x, leftBorder, rightBorder),
              Mathf.Clamp (transform.position.y, bottomBorder, topBorder),
              transform.position.z)
-         );
-    }    
+        );
+    }
 
     void FixedUpdate()
     {
