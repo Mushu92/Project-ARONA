@@ -19,22 +19,25 @@ public class PlayerJump : MonoBehaviour
     void Update()
     {
         // Jump
-        if (Input.GetButtonUp("Jump"))
+        if (Input.GetButtonUp("Jump") && !anim.GetBool("isJumping"))
         {
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            anim.SetBool("isJumping", true);
         }
     }
-   /* void FixedUdate()
+    void FixedUpdate()
     {
         //Landing Platform
-        Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
-
-        RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
-
-        if(rayHit.collider != null)
+        if(rigid.velocity.y < 0)
         {
-            if(rayHit.distance < 0.5f )
-                Debug.Log(rayHit.collider.name);
+            Debug.DrawRay(rigid.position, Vector3.down, new Color(1, 0, 0));
+            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
+            if (rayHit.collider != null)
+            {
+                if (rayHit.distance < 0.5f)
+                    anim.SetBool("isJumping", false);
+            }
         }
-    } */
+       
+    }
 }
