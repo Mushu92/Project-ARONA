@@ -6,7 +6,7 @@ public class EnemyMove : MonoBehaviour
 {
     Rigidbody2D rigid;
     public int nextMove;
-    void Start()
+    void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
 
@@ -20,12 +20,14 @@ public class EnemyMove : MonoBehaviour
         rigid.velocity = new Vector2(nextMove, rigid.velocity.y);
 
         //Platform Check
-        Vector2 frontVec = new Vector2(rigid.position.x + nextMove, rigid.position.x);
+        Vector2 frontVec = new Vector2(rigid.position.x + nextMove*0.3f, rigid.position.y);
         Debug.DrawRay(frontVec, Vector3.down, new Color(0,1,0));
         RaycastHit2D rayhit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Platform"));
         if (rayhit.collider == null)
         {
-            Debug.Log("°æ°í! ÀÌ ¾Õ ³¶¶³¾îÁö.");
+            nextMove *= -1;
+            CancelInvoke();
+            Invoke("Think", 5);
         }
     }
 
